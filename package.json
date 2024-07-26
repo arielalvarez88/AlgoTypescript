@@ -1,0 +1,23 @@
+{
+  "name": "algo_typescript",
+  "version": "1.0.0",
+  "description": "practicing algorithms",
+  "main": "index.js",
+  "author": "Ariel Alvarez",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  },
+  "scripts": {
+    "start": "ts-node index.ts",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@jest/globals": "^29.7.0",
+    "@types/jest": "^29.5.12",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.3"
+  }
+}
